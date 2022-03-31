@@ -1,0 +1,12 @@
+@use "../custom" as *;
+@use "../components/mixins" as *;
+@use "../components/typography" as *;
+
+.menu{
+    @include gradient;
+    padding: 1rem 0;
+    
+    li{
+        padding: 0 0.7rem;
+    }
+}

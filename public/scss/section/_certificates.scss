@@ -1,0 +1,16 @@
+@use "../custom" as *;
+@use "../components/typography" as *;
+@use "../components/mixins" as *;
+
+.display-4{
+    &--main{
+        padding: 2rem 0 1rem;
+    }
+}
+
+.glightbox{
+    width: 70%;
+    img{
+        width: 100%;
+    }
+}

@@ -1,0 +1,7 @@
+@use "../custom" as *;
+@use "../components/typography" as *;
+@use "../components/mixins" as *;
+
+footer{
+    padding-bottom: 2rem;
+}

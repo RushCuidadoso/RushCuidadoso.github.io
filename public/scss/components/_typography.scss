@@ -1,0 +1,106 @@
+@use "../custom" as *;
+@use "../components/mixins" as *;
+
+// IMPORT GOOGLE FONTS
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@200;400;700;900&family=Roboto+Slab:wght@300;400;500;700&display=swap');
+
+$font-family: 'League Spartan', sans-serif;
+$font-family-secondary: 'Roboto', sans-serif;
+
+.menu{
+    font-family: $font-family-secondary;
+    font-weight: 400;
+    li{
+        a{
+            color: $dark !important;
+            text-transform: capitalize;
+        }
+    }
+}
+
+.display-2{
+    font-family: $font-family;
+
+    &--main{
+        font-weight: 700;
+        color: $dark;
+        display: inline-block;
+    }
+
+    &--description{
+        font-family: $font-family-secondary;
+        font-size: 1rem;
+        display: block;
+        color: $dark;
+    }
+}
+
+.display-3{
+    font-family: $font-family;
+    margin: 0 0 !important;
+    &--description{
+        font-family: $font-family-secondary;
+        font-size: 1rem;
+        font-weight: 600;
+        display: block;
+        color: $dark;
+    }
+
+    &--contact{
+        font-size: 2rem;
+    }
+
+    &--list{
+        font-family: $font-family-secondary;
+        font-size: 1rem;
+        font-weight: 600;
+        display: block;
+        color: $dark;
+    }
+}
+
+.socials{
+    a{
+        font-size: 2.5rem !important;
+        color: $dark !important;
+    }
+}
+
+.download{
+    a{
+        padding: 0.5rem;
+        background-color: $beige;
+        border-radius: 5px;
+        text-decoration: none;
+        color: $dark;
+    }
+    span{
+        font-family: $font-family-secondary;
+    }
+}
+
+.display-4{
+    font-family: $font-family;
+    font-weight: 700;
+
+    &--main{
+        font-family: $font-family-secondary;
+    }
+
+    &--description{
+        font-family: $font-family-secondary;
+        font-size: 1rem;
+        display: block;
+        color: $dark;
+    }
+}
+
+footer{
+    font-family: $font-family-secondary;
+    background-color: $dark;
+    color: $beige;
+
+    h6{
+        font-size: 2rem;
+    }
+}

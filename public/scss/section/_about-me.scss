@@ -1,0 +1,22 @@
+@use "../custom" as *;
+@use "../components/typography" as *;
+@use "../components/mixins" as *;
+
+
+.image-box-about-me{
+    min-width: auto;
+    overflow: hidden;
+    background: url('/public/images/lofi_generator.png') center center;
+    background-size: auto 130%;
+    border-radius: 15px;
+    border: 1px solid black;
+    @include media-breakpoint-down(lg){
+        margin-bottom: 1rem;
+    }
+}
+
+.about-me-section .container {
+    .container{
+        @include texbox;
+    }
+}
