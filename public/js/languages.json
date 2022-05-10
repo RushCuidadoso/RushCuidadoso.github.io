@@ -7,9 +7,10 @@
             "certificates": "Certificates"
         },
         "main": {
-            "main": "Hey, I'm Denis.",
+            "main": "Hey!, I'm Denis.",
             "description": "I'm a Web / Software Developer living in Ponta Porã - Brazil.",
-            "sub-description": "I love computers and logic."
+            "sub-description": "I love computers and logic.",
+            "languages": "I can speak these languages: <br> Click on a flag to choose a language"
         },
         "about-me": {
             "main": "About Me:",
@@ -86,7 +87,8 @@
         "main": {
             "main": "Hola, soy Denis.",
             "description": "Soy un desarrollador de software y páginas web que vive en Ponta Porã - Brasil.",
-            "sub-description": "Me gustan las computadoras y la lógica."
+            "sub-description": "Me gustan las computadoras y la lógica.",
+            "languages": "Sé estos idiomas: <br> Haz Click para seleccionar un lenguaje"
         },
         "about-me": {
             "main": "Sobre Mí:",
@@ -163,7 +165,8 @@
         "main": {
             "main": "Olá, sou Denis.",
             "description": "Sou um desenvolvedor de software e páginas web que vive em Ponta Porã - Brasil.",
-            "sub-description": "Eu gosto de computadores e lógica."
+            "sub-description": "Eu gosto de computadores e lógica.",
+            "languages": "Posso falar em estes idiomas: <br> Faça Click em uma bandeira para alterar idioma"
         },
         "about-me": {
             "main": "Sobre Mim:",
@@ -240,7 +243,8 @@
         "main": {
             "main": "Bonjour, je suis Denis.",
             "description": "Je suis un développeur web et logiciel vivant à Ponta Porã - Brésil.",
-            "sub-description": "J'aime les ordinateurs et la logique."
+            "sub-description": "J'aime les ordinateurs et la logique.",
+            "languages": "Je peux parler ces langues: <br> Cliquez sur un drapeau pour choisir une langue"
         },
         "about-me": {
             "main": "À propos de moi:",

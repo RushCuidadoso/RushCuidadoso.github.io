@@ -28,6 +28,8 @@ function setTranslate(){
     document.querySelector('.lang-main').textContent = languages[attr].main.main;
     document.querySelector('.lang-description').textContent = languages[attr].main.description;
     document.querySelector('.lang-sub-description').textContent = languages[attr].main["sub-description"];
+    document.querySelector('.lang-languages').innerHTML = languages[attr].main.languages;
+
     // ABOUT ME
     document.querySelector('.lang-about-me-main').textContent = languages[attr]["about-me"].main;
     document.querySelector('.lang-about-me-description').innerHTML = languages[attr]["about-me"].description;
