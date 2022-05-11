@@ -33,9 +33,10 @@
     content="Online portfolio of a fullstack developer, you can find all about me in this website">
   <meta property="twitter:image" content="https://freeimage.host/i/M3xTDQ">
 
+  <!-- Links -->
   <link rel="stylesheet" href="/public/css/style.css">
   <link rel="stylesheet" href="/public/css/glightbox.css" />
-  <script src="/public/js/all.js"></script>
+  <script src="/public/vendors/fontawesome/all.js"></script>
 
 </head>
 
@@ -84,6 +85,9 @@
         <div class="col-md-6">
           <div class="image-box-main ms-auto">
             <img src="/public/images/svg/Web Developer_Flatline_Original.svg" alt="" class="">
+          </div>
+          <div class="row text-center">
+            <p class="lang-languages instructions">I can speak these languages: <br> Click on a flag to choose a language</p>
           </div>
           <div class="row d-flex languages">
             <a class="flag active" language="english"><img src="/public/images/flags/us.svg" class="img-flag" alt="English"></a>
@@ -181,69 +185,106 @@
       </path>
     </svg>
     <div class="container">
-      <h1 class="text-center display-4 mb-4 lang-projects-main" id="projects"> Projects </h1>
+      <h1 class="text-center display-4 mb-4 lang-projects-main" id="projects">Projects</h1>
+      
+      <!-- FIRST ROW -->
 
-      <div class="project row text-center">
-        <div class="col-lg-6">
-          <h3 class="display-4--main lang-projects-pokemon-name p-0 m-0 pt-4">Poké API Visualization </h3>
-          <span class="display-4--description lh-base lang-projects-pokemon-description p-2">A little front-end web app that
-            returns pokemons using Pokémon
-            public API.</span>
-
-          <div class="image-box-certificates d-flex justify-content-center">
-            <a href="/public/images/projects/PokeAPI/Page1big.png" class="glightbox2" data-gallery="projects">
-              <img src="/public/images/projects/PokeAPI/Page1.png" alt="PokeAPI" />
-            </a>
+      <div class="row">
+        <div class="col-sm-6 mt-4">
+          <div class="card h-100">
+            <img src="/public/images/projects/Internet Landing Page/landing.png" class="card-img-top" alt="Landing Page">
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title lang-projects-landing-name">Internet Provider Landing Page</h5>
+              <p class="card-text lang-projects-landing-description">Landing page developed for a internet provider, using NodeJS and plain Javascript.</p>
+              <a target="_blank" href="http://rc-landingpagedemo.herokuapp.com/" class="visit mt-auto w-25">Visit Website</a>
+            </div>
           </div>
         </div>
-
-        <div class="col-lg-6">
-          <h3 class="display-4--main lang-projects-news-name p-0 m-0 pt-4">News Webpage </h3>
-          <span class="display-4--description lh-base lang-projects-news-description p-2">A front-end website created using
-            pure Javascript, for a news page</span>
-
-          <div class="image-box-certificates d-flex justify-content-center">
-            <a href="/public/images/projects/Portal de noticias/Landingbig.png" class="glightbox2"
-              data-gallery="projects">
-              <img src="/public/images/projects/Portal de noticias/Landing.png" alt="News" />
-            </a>
+        <div class="col-sm-6 mt-4">
+          <div class="card h-100">
+            <img src="/public/images/projects/Travel Advisor/travel-advisor.jpg" class="card-img-top" alt="Travel Advisor">
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title lang-projects-travel-name">Travel Advisor WebApp</h5>
+              <p class="card-text lang-projects-travel-description">A functional webapp, for searching hotels, restaurants and attractions on Google Maps.</p>
+              <a target="_blank" href="https://travel-advisor-rush.netlify.app/" class="visit mt-auto w-25">Visit Website</a>
+            </div>
           </div>
         </div>
       </div>
-
+      
       <!-- SECOND ROW -->
-      <div class="project row text-center mt-5">
-        <div class="col-lg-6">
-          <h3 class="display-4--main lang-projects-instagram-name p-0 m-0 pt-4">Instagram Clone </h3>
-          <span class="display-4--description lh-base lang-projects-instagram-description p-2">A social media with online
-            authentication, images upload and
-            comments</span>
 
-          <div class="image-box-certificates d-flex justify-content-center">
-            <a href="/public/images/projects/Clone de instagram/Instagrambig.png" class="glightbox2"
-              data-gallery="projects">
-              <img src="/public/images/projects/Clone de instagram/Instagram.png" alt="Instagram" />
-            </a>
+      
+      <div class="row ">
+        <div class="col-sm-4 mt-4">
+          <div class="card h-100">
+            <img src="/public/images/projects/Clone de instagram/Instagram.png" class="card-img-top" alt="Travel Advisor">
+            <div class="card-body">
+              <h5 class="card-title lang-projects-instagram-name">Instagram Clone</h5>
+              <p class="card-text lang-projects-instagram-description">A social media with authentication, images upload and comments.</p>
+              <a target="_blank" href="https://instagram-clone-curso-cd8e1.web.app/" class="visit mt-auto w-25">Visit Website</a>
+            </div>
           </div>
         </div>
 
-        <div class="col-lg-6">
-          <h3 class="display-4--main lang-projects-checks-name p-0 m-0 pt-4">Checks Control System </h3>
-          <span class="display-4--description lh-base lang-projects-checks-description p-2">A system that I created for a
-            clothes store, to help keep
-            predated checks given to the suppliers in mind for payment</span>
 
-          <div class="image-box-certificates d-flex justify-content-center">
-            <a href="/public/images/projects/Sistema de Cheques/Check1big.jpg" class="glightbox2"
-              data-gallery="projects">
-              <img src="/public/images/projects/Sistema de Cheques/Check1.jpg" alt="Checks" />
-            </a>
+        <div class="col-sm-4 mt-4">
+          <div class="card h-100">
+            <img src="/public/images/projects/E-Commerce frontend/ecommerce.png" class="card-img-top" alt="Travel Advisor">
+            <div class="card-body">
+              <h5 class="card-title lang-projects-ecommerce-name">E-Commerce Frontend</h5>
+              <p class="card-text lang-projects-ecommerce-description">A illustration of a product, with price and description, for e-commerce.</p>
+            </div>
           </div>
         </div>
-        <div class="download d-flex justify-content-center mt-5">
-          <a href="/"><span class="more lang-projects-see-more">See More</span></a>
+
+        <div class="col-sm-4 mt-4">
+          <div class="card h-100">
+            <img src="/public/images/projects/Portal de noticias/News.png" class="card-img-top" alt="Travel Advisor">
+            <div class="card-body">
+              <h5 class="card-title lang-projects-news-name">News Webpage</h5>
+              <p class="card-text lang-projects-news-description">A front-end website created using pure Javascript, for a news page.</p>
+            </div>
+          </div>
         </div>
       </div>
+
+      <!-- THIRD ROW -->
+      <div class="row">
+        <div class="col-sm-4 mt-4">
+          <div class="card h-100">
+            <a href="/public/images/certificates/diploma.jpg" class="glightbox2" data-gallery="certificates">
+              <img src="/public/images/certificates/diploma.jpg" alt="Diploma" />
+            </a>
+            <div class="card-body">
+              <h5 class="card-title lang-projects-checks-name">Checks Control System</h5>
+              <p class="card-text lang-projects-checks-description">A system that I created for a clothes store, to help keep predated checks given to the suppliers in mind for payment.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-4 mt-4">
+          <div class="card h-100">
+            <img src="/public/images/projects/PokeAPI/Page1.png" class="card-img-top" alt="Landing Page">
+            <div class="card-body">
+              <h5 class="card-title lang-projects-pokemon-name">Poké API Visualization</h5>
+              <p class="card-text lang-projects-pokemon-description">A front-end web app that shows pokemons using Pokémon public API.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-4 mt-4">
+          <div class="card h-100">
+            <img src="/public/images/projects/NFT Preview/nft-preview.png" class="card-img-top" alt="Travel Advisor">
+            <div class="card-body">
+              <h5 class="card-title lang-projects-nft-name">NFT Preview</h5>
+              <p class="card-text lang-projects-nft-description">A Preview of a NFT card, with value, days, and author.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- END ROWS -->
     </div>
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
       <path fill="#ffffff" fill-opacity="1"
@@ -306,8 +347,8 @@
     <span class="lang-footer-rights">All rights reserved.</span>
   </footer>
 
-  <script src="/public/js/bootstrap.bundle.js"></script>
-  <script src="/public/js/glightbox.js"></script>
+  <script src="/public/vendors/bootstrap/bootstrap.bundle.js"></script>
+  <script src="/public/vendors/glightbox/glightbox.min.js"></script>
 
   <script type="text/javascript">
     const certificates = GLightbox({

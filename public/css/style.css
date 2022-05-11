@@ -11194,6 +11194,18 @@ textarea.form-control-lg {
   font-family: "Roboto", sans-serif;
 }
 
+.visit {
+  padding: 0.5rem;
+  background-color: #D6E0F0;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #393B44;
+  text-align: center;
+}
+.visit:hover {
+  color: #393B44;
+}
+
 .display-4 {
   font-family: "League Spartan", sans-serif;
   font-weight: 700;
@@ -11245,6 +11257,10 @@ footer h6 {
   height: 100%;
 }
 
+.instructions {
+  font-size: large;
+}
+
 .languages {
   justify-content: center;
 }
@@ -11252,7 +11268,10 @@ footer h6 {
   filter: grayscale(1);
   width: 20%;
 }
-.languages a:hover {
+.languages a img {
+  cursor: pointer;
+}
+.languages a img:hover {
   filter: grayscale(0);
 }
 .languages a.active {
@@ -11298,7 +11317,7 @@ footer h6 {
 }
 
 .glightbox2 {
-  width: 70%;
+  width: 100%;
 }
 .glightbox2 img {
   width: 100%;

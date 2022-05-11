@@ -17,15 +17,24 @@
     }
 }
 
+.instructions{
+    font-size: large;
+}
+
 .languages{
     justify-content: center;
     a{
         filter: grayscale(1);
         width: 20%;
 
-        &:hover{
-            filter: grayscale(0);
+        img{
+            cursor: pointer;
+            &:hover{
+                filter: grayscale(0);
+            }
         }
+
+
     }
     a.active{
             filter: grayscale(0);

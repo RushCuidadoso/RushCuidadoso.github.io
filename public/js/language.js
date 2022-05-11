@@ -28,11 +28,14 @@ function setTranslate(){
     document.querySelector('.lang-main').textContent = languages[attr].main.main;
     document.querySelector('.lang-description').textContent = languages[attr].main.description;
     document.querySelector('.lang-sub-description').textContent = languages[attr].main["sub-description"];
+    document.querySelector('.lang-languages').innerHTML = languages[attr].main.languages;
+
     // ABOUT ME
     document.querySelector('.lang-about-me-main').textContent = languages[attr]["about-me"].main;
     document.querySelector('.lang-about-me-description').innerHTML = languages[attr]["about-me"].description;
     document.querySelector('.lang-about-me-contact').textContent = languages[attr]["about-me"].contact;
     document.querySelector('.lang-about-me-cv').textContent = languages[attr]["about-me"].cv;
+
     // SKILLS
     document.querySelector('.lang-skills-main').textContent = languages[attr].skills.main;
     document.querySelector('.lang-skills-description').innerHTML = languages[attr].skills.description;
@@ -41,8 +44,26 @@ function setTranslate(){
     document.querySelector('.portuguese').textContent = languages[attr].skills.list.portuguese;
     document.querySelector('.english').textContent = languages[attr].skills.list.english;
     document.querySelector('.french').textContent = languages[attr].skills.list.french;
+
     // PROJECTS
     document.querySelector('.lang-projects-main').textContent = languages[attr].projects.main;
+    
+    // NEW PROJECTS
+    document.querySelector('.lang-projects-landing-name').textContent = languages[attr].projects.projects.landing.name;
+    document.querySelector('.lang-projects-landing-description').textContent = languages[attr].projects.projects.landing.description;
+    document.querySelector('.lang-projects-travel-name').textContent = languages[attr].projects.projects.travel.name;
+    document.querySelector('.lang-projects-travel-description').textContent = languages[attr].projects.projects.travel.description;
+    document.querySelector('.lang-projects-ecommerce-name').textContent = languages[attr].projects.projects.ecommerce.name;
+    document.querySelector('.lang-projects-ecommerce-description').textContent = languages[attr].projects.projects.ecommerce.description;
+    document.querySelector('.lang-projects-nft-name').textContent = languages[attr].projects.projects.nft.name;
+    document.querySelector('.lang-projects-nft-description').textContent = languages[attr].projects.projects.nft.description;
+
+    document.querySelectorAll('.visit').forEach(element => {
+        element.textContent = languages[attr].projects.projects.visit;
+    });
+
+
+    // OLD PROJECTS
     document.querySelector('.lang-projects-pokemon-name').textContent = languages[attr].projects.projects.pokemon.name;
     document.querySelector('.lang-projects-pokemon-description').textContent = languages[attr].projects.projects.pokemon.description;
     document.querySelector('.lang-projects-news-name').textContent = languages[attr].projects.projects.news.name;
@@ -52,12 +73,14 @@ function setTranslate(){
     document.querySelector('.lang-projects-checks-name').textContent = languages[attr].projects.projects.checks.name;
     document.querySelector('.lang-projects-checks-description').textContent = languages[attr].projects.projects.checks.description;
     document.querySelector('.lang-projects-see-more').textContent = languages[attr].projects['see-more'];
+
     // CERTIFICATES
     document.querySelector('.lang-certificates-main').textContent = languages[attr].certificates.main;
     document.querySelector('.lang-certificates-university').textContent = languages[attr].certificates.certificates.diploma.name;
     document.querySelector('.lang-certificates-webmaster').textContent = languages[attr].certificates.certificates['danki-frontend'].name;
     document.querySelector('.lang-certificates-remote').textContent = languages[attr].certificates.certificates.remote.name;
     document.querySelector('.lang-certificates-inter').textContent = languages[attr].certificates.certificates.inter.name;
+
     // FOOTER
     document.querySelector('.lang-footer-name').textContent = languages[attr].footer.main;
     document.querySelector('.lang-footer-rights').textContent = languages[attr].footer.copyright;

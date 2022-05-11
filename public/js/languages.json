@@ -7,9 +7,10 @@
             "certificates": "Certificates"
         },
         "main": {
-            "main": "Hey, I'm Denis.",
+            "main": "Hey!, I'm Denis.",
             "description": "I'm a Web / Software Developer living in Ponta Porã - Brazil.",
-            "sub-description": "I love computers and logic."
+            "sub-description": "I love computers and logic.",
+            "languages": "I can speak these languages: <br> Click on a flag to choose a language"
         },
         "about-me": {
             "main": "About Me:",
@@ -31,9 +32,26 @@
         "projects": {
             "main": "Projects",
             "projects": {
+                "visit": "Visit Webpage",
+                "landing": {
+                    "name": "Internet Provider Landing Page",
+                    "description": "Landing page developed for a internet provider, using NodeJS and plain Javascript."
+                },
+                "travel": {
+                    "name": "Travel Advisor WebApp",
+                    "description": "A functional webapp, for searching hotels, restaurants and attractions on Google Maps."
+                },
+                "ecommerce": {
+                    "name": "E-Commerce Frontend",
+                    "description": "A illustration of a product, with price and description, for e-commerce."
+                },
+                "nft": {
+                    "name": "NFT Preview",
+                    "description": "A Preview of a NFT card, with value, days, and author."
+                },
                 "pokemon": {
                     "name": "Poké API Visualization",
-                    "description": "A little front-end web app that shows pokemons using Pokémon public API."
+                    "description": "A front-end web app that shows pokemons using Pokémon public API."
                 },
                 "news": {
                     "name": "News Webpage",
@@ -86,7 +104,8 @@
         "main": {
             "main": "Hola, soy Denis.",
             "description": "Soy un desarrollador de software y páginas web que vive en Ponta Porã - Brasil.",
-            "sub-description": "Me gustan las computadoras y la lógica."
+            "sub-description": "Me gustan las computadoras y la lógica.",
+            "languages": "Sé estos idiomas: <br> Haz Click para seleccionar un lenguaje"
         },
         "about-me": {
             "main": "Sobre Mí:",
@@ -108,6 +127,23 @@
         "projects": {
             "main": "Proyectos",
             "projects": {
+                "visit": "Visitar Página Web",
+                "landing": {
+                    "name": "Landing Page de Proveedor de Internet",
+                    "description": "Landing page desarrollado para un proveedor de internet, usando NodeJS and Javascript puro."
+                },
+                "travel": {
+                    "name": "Travel Advisor App",
+                    "description": "A una applicación web funcional, para buscar hoteles, restaurantes and atracciones en Google Maps."
+                },
+                "ecommerce": {
+                    "name": "E-Commerce Frontend",
+                    "description": "Una ilustración de un producto, con precio y descripción, para e-commerce."
+                },
+                "nft": {
+                    "name": "Vista de NFT",
+                    "description": "Una vista de una carta NFT, valor, días y autor."
+                },
                 "pokemon": {
                     "name": "Visualización de la Poke API",
                     "description": "Una pequeña aplicación front-end que muestra pokémons utilizando la API pública de pokémons."
@@ -163,7 +199,8 @@
         "main": {
             "main": "Olá, sou Denis.",
             "description": "Sou um desenvolvedor de software e páginas web que vive em Ponta Porã - Brasil.",
-            "sub-description": "Eu gosto de computadores e lógica."
+            "sub-description": "Eu gosto de computadores e lógica.",
+            "languages": "Posso falar em estes idiomas: <br> Faça Click em uma bandeira para alterar idioma"
         },
         "about-me": {
             "main": "Sobre Mim:",
@@ -185,6 +222,23 @@
         "projects": {
             "main": "Projetos",
             "projects": {
+                "visit": "Visitar Página",
+                "landing": {
+                    "name": "Landing Page para fornecedor de internet",
+                    "description": "Landing page desenvolvido para um fornecedor de internet, usando NodeJS e Javascript puro."
+                },
+                "travel": {
+                    "name": "Travel Advisor WebApp",
+                    "description": "Uma webapp funcional, para buscar hotéis, restaurantes e atrações em Google Maps."
+                },
+                "ecommerce": {
+                    "name": "E-Commerce Frontend",
+                    "description": "Uma ilustração de um produto, com preço de descrição, para e-commerce."
+                },
+                "nft": {
+                    "name": "NFT Preview",
+                    "description": "Uma previsualização de uma carta NFT, com valor, dias e autor."
+                },
                 "pokemon": {
                     "name": "Visualização da Poke API",
                     "description": "Uma pequena aplicação front-end que mostra pokémons utilizando a API pública de pokémons."
@@ -240,7 +294,8 @@
         "main": {
             "main": "Bonjour, je suis Denis.",
             "description": "Je suis un développeur web et logiciel vivant à Ponta Porã - Brésil.",
-            "sub-description": "J'aime les ordinateurs et la logique."
+            "sub-description": "J'aime les ordinateurs et la logique.",
+            "languages": "Je peux parler ces langues: <br> Cliquez sur un drapeau pour choisir une langue"
         },
         "about-me": {
             "main": "À propos de moi:",
@@ -262,6 +317,23 @@
         "projects": {
             "main": "Projets",
             "projects": {
+                "visit": "Visit Webpage",
+                "landing": {
+                    "name": "Internet Provider Landing Page",
+                    "description": "Landing page developed for a internet provider, using NodeJS and plain Javascript."
+                },
+                "travel": {
+                    "name": "Travel Advisor WebApp",
+                    "description": "A functional webapp, for searching hotels, restaurants and attractions on Google Maps."
+                },
+                "ecommerce": {
+                    "name": "E-Commerce Frontend",
+                    "description": "A illustration of a product, with price and description, for e-commerce."
+                },
+                "nft": {
+                    "name": "NFT Preview",
+                    "description": "A Preview of a NFT card, with value, days, and author."
+                },
                 "pokemon": {
                     "name": "Visualisation de l'API Poke",
                     "description": "Une petite application frontale qui affiche les pokémons en utilisant l'API publique des pokémons."

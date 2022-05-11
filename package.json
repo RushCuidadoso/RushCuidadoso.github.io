@@ -20,6 +20,6 @@
   "homepage": "https://github.com/RushCuidadoso/RushCuidadoso.github.io#readme",
   "devDependencies": {
     "bootstrap": "^5.1.3",
-    "sass": "^1.50.1"
+    "sass": "^1.51.0"
   }
 }

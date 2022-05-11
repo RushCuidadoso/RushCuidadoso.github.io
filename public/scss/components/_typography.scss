@@ -86,6 +86,19 @@ $font-family-secondary: 'Roboto', sans-serif;
     }
 }
 
+.visit{
+    padding: 0.5rem;
+    background-color: $beige;
+    border-radius: 5px;
+    text-decoration: none;
+    color: $dark;
+    text-align: center;
+
+    &:hover{
+        color: $dark;
+    }
+}
+
 .display-4{
     font-family: $font-family;
     font-weight: 700;
