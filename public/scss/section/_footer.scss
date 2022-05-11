@@ -4,4 +4,27 @@
 
 footer{
     padding-bottom: 2rem;
+    width: 100%;
+    
+    .info{
+        position: relative;
+        img{
+            position: absolute;
+            width: 180px;
+            top: -13rem;
+            left: 50%;
+            transform: translate(-50%);
+            border-radius: 100%;
+            border: 2px solid black;
+
+            @media screen and (max-width: 991px){
+                width: 70px;
+                top: -80px;
+            }
+        }
+    }
+
+    @media screen and (max-width: 991px){
+        margin-top: 1rem;
+    }
 }

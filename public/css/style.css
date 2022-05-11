@@ -11310,6 +11310,9 @@ footer h6 {
   width: 100%;
   height: 100%;
 }
+.projects-section .visit {
+  width: fit-content;
+}
 
 .more {
   font-size: 2rem;
@@ -11336,6 +11339,30 @@ footer h6 {
 
 footer {
   padding-bottom: 2rem;
+  width: 100%;
+}
+footer .info {
+  position: relative;
+}
+footer .info img {
+  position: absolute;
+  width: 180px;
+  top: -13rem;
+  left: 50%;
+  transform: translate(-50%);
+  border-radius: 100%;
+  border: 2px solid black;
+}
+@media screen and (max-width: 991px) {
+  footer .info img {
+    width: 70px;
+    top: -80px;
+  }
+}
+@media screen and (max-width: 991px) {
+  footer {
+    margin-top: 1rem;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
